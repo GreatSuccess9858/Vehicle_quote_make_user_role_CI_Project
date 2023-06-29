@@ -1,0 +1,16 @@
+#responsive-menu-links { display: none; }
+
+@media (max-width: 400px) {
+	#responsive-menu-links { display: block; }
+	.dashboard-window { margin-bottom: 10px; }
+}
+
+@media (max-width: 767px) {
+	#timer-scroll { background: #d0d0d0; }
+	#notifications-scroll { background: #d0d0d0; }
+	#projects-scroll { background: #d0d0d0; }
+	#email-scroll { background: #d0d0d0; }
+	.notification-box-title { background: #d0d0d0; }
+	#responsive-menu-links { display: block; }
+	.dashboard-window { margin-bottom: 10px; }
+}

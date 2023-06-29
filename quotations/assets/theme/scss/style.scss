@@ -1,0 +1,72 @@
+/*
+Template Name: Urora - Bootstrap 4 Admin Dashboard
+Author: Mannatthemes
+Website: www.mannatthemes.com
+File: Main Css File
+*/
+
+/*
+1. General
+2. Loader
+3. Bootstrap Custom
+4. Alerts
+5. Helper
+6. Waves
+7. Print
+8. Demo Only
+9. Buttons
+10. Cards
+11. Pagination
+12. Progressbars
+13. Popovers & Tooltips
+14. Nestable
+15. Alertify
+16. Charts
+17. Tables
+18. Rage Slider
+19. Session Timeout
+20. Form Elements
+21. Form Advanced
+22. Form Validation
+23. Form Uploads
+24. Calendar
+25. Widgets
+26. Timeline
+27. Invoice
+28. Maps
+29. Account pages
+30. Menu
+31. Responsive
+*/
+
+@import "variables";
+@import "general";
+@import "loader";
+@import "bootstrap-custom";
+@import "alerts";
+@import "helper";
+@import "waves";
+@import "print";
+@import "demo-only";
+@import "buttons";
+@import "card";
+@import "pagination";
+@import "progressbar";
+@import "popover-tooltips";
+@import "nestable";
+@import "alertify";
+@import "charts";
+@import "tables";
+@import "range-slider";
+@import "session-timeout";
+@import "form-elements";
+@import "form-validation";
+@import "form-upload";
+@import "form-advanced";
+@import "form-editor";
+@import "calendar";
+@import "widgets";
+@import "maps";
+@import "account-pages";
+@import "menu";
+@import "responsive";

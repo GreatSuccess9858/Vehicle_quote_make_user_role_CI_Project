@@ -1,0 +1,56 @@
+/* ==============
+  Account Pages
+===================*/
+.accountbg {
+    background: url("../images/bg-account.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.wrapper-page {
+  max-width: 100%;
+  position: relative;
+  padding: 150px;
+
+  .logo-admin {
+    float: none !important;
+  }
+  .display-table-cell {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .card {
+    border: 7px groove $primary;
+    border-radius: 10px;
+  }
+}
+
+.user-thumb {
+  position: relative;
+  z-index: 999;
+  img {
+    height: 88px;
+    margin: 0 auto;
+    width: 88px;
+  }
+}
+
+.ex-page-content {
+  h1 {
+    font-size: 98px;
+    color: $success;
+    font-weight: 700;
+    line-height: 150px;
+    text-shadow: rgb(64, 192, 195) 1px 1px, rgb(63, 81, 181) 2px 2px, rgb(30, 81, 164) 3px 3px;
+  }
+}

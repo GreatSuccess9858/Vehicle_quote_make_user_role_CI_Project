@@ -1,0 +1,141 @@
+/* ==============
+  Widgets
+===================*/
+.widget-chart li {
+  width: 31.5%;
+  display: inline-block;
+  padding: 0;
+
+  i {
+    font-size: 22px;
+  }
+}
+
+.mini-stat {
+  box-shadow: $shadow;
+  padding: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.mini-stat-icon {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.mini-stat-info {
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.mini-stat-info span {
+  display: block;
+  font-size: 24px;
+}
+
+
+.round {
+  line-height: 64px;
+  color: $white;
+  width: 60px;
+  height: 60px;
+  font-size: 36px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 10%;
+  background: transparent;
+}
+.bg-progress{
+  background-color:lighten($bg-topbar,30%); 
+}
+
+
+.text-greylight{
+  color: $greylight;
+}
+
+.new-user table td img,
+.new-user ul li img {
+  margin-right: 8px;
+  width: 40px;
+}
+
+
+#boxscroll,
+#boxscroll2 {
+  height: 450px;
+  width: auto;
+  overflow: auto;
+}
+
+.custom-dash-nav {
+  .active {
+    .card {
+      background-color: $primary;
+      color: $white;
+    }
+    .search-type-arrow {
+      width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 25px solid #ffffff;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        margin-left: -35px;
+        transform: translate3d(3px, 0, 0);
+        z-index: 99;
+    }
+  }
+}
+
+
+
+
+.jvectormap-zoomin,
+.jvectormap-zoomout{
+  display: none;
+}
+
+#v-cal .vcal-week span{
+  font-size: 14px !important;
+  padding: 8px;
+  font-weight: 500;
+}
+#v-cal .vcal-header__label {
+  bottom: -1px;
+  display: inline-block;
+  position: relative;
+}
+#v-cal .vcal-header svg {
+  bottom: -1px;
+  display: block;
+  position: relative;
+}
+#v-cal .vcal-date{
+  padding: 10px;
+}
+.bg-weather{
+  background-image: url("../images/weather.png");
+  background-size: cover;
+  background-position: center center;
+}
+.bg-lightgreen{
+  background-color: $lightgreen;
+}
+.bg-lightblue{
+  background-color: $lightblue;
+}

@@ -1,0 +1,196 @@
+/* ==============
+  General
+===================*/
+
+body {
+  background: $bg-body;
+  font-family: $font-primary;
+  margin: 0;
+  font-size: $base-font;
+}
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  background: $bg-body;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+}
+
+h1 {
+  line-height: 43px;
+}
+
+h2 {
+  line-height: 35px;
+}
+
+h3 {
+  line-height: 30px;
+  small {
+    color: $lightdark4;
+  }
+}
+
+h4 {
+  line-height: 22px;
+  small {
+    color: $lightdark4;
+  }
+}
+
+h5 {
+  small {
+    color: $lightdark4;
+  }
+}
+
+h6 {
+  font-size: 14px;
+}
+
+b {
+  font-weight: 500;
+}
+
+* {
+  outline: none !important;
+}
+
+a {
+  color:$lightdark7;
+  &:hover {
+    outline: 0;
+    text-decoration: none;
+    color:$lightdark7;
+  }
+  &:active {
+    outline: 0;
+    text-decoration: none;
+    color:$lightdark7;
+  }
+  &:focus {
+    outline: 0;
+    text-decoration: none;
+    color:$lightdark7;
+  }
+}
+
+code {
+  color: $info;
+}
+.tab-btn{
+  display: none;
+}
+
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer {
+  background-color: $white;
+  bottom: 0;
+  color: $dark;
+  text-align: center;
+  padding: 20px 30px;
+  position: absolute;
+  right: 0;
+  left: 240px;
+}
+
+#wrapper {
+  height: $height;
+  overflow: hidden;
+  width: $width;
+}
+
+.page {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+
+/* Social */
+.social-links {
+  li {
+    a {
+      -webkit-border-radius: 50%;
+      background: lighten($light,4%);
+      border-radius: 50%;
+      color: lighten($lightdark7,15%);
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      width: 30px;
+    }
+  }
+}
+
+.card-thumbnail[class*=card-inner] {
+  display: block;
+  margin-top: -66px;
+  margin-bottom: 15px;
+}
+
+.card-inner {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+}
+.owl-carousel .owl-inner img{
+  width: 80px !important;
+}
+.owl-carousel .owl-dots{
+  display: none !important;
+}
+.nav-link{
+  text-transform: none;
+}
+.nav-pills .nav-link{
+  padding: .5rem 1rem;
+  text-transform: none;
+}
+.table thead th {
+  border-top-width: 1px;
+}
+
+/*.btn-group{
+  margin: 0 !important;
+}*/
+.emotion-style-element{
+  font-size: 46px !important;
+}
+
+.dashborad-v{
+  .live-tile{
+    height: 60px;
+  }
+  #morris-bar-example{
+    height: 280px;
+  }
+  #morris-area-chart{
+    width: 100%;
+    height: 360px;
+  }
+  #animating-donut{
+    height: 260px;
+  }
+  .h-360{
+    height: 360px;
+  }
+  #world-map-markers{
+    height: 340px;
+  }
+}
+
+.modal-content .modal-footer {
+  padding: 8px 24px 24px;
+}

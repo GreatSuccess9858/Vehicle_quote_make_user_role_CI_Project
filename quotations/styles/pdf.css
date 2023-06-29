@@ -1,0 +1,41 @@
+table,
+figure {
+  page-break-inside: avoid;
+}
+#acepto {
+  width: 100%;
+  margin-top: 20px;
+}
+#acepto td {
+  text-align: center;
+}
+#acepto td.linea {
+  padding: 50px;
+  vertical-align: bottom;
+}
+.font-red {
+  font-weight: bold;
+  color: #f00;
+}
+.page-carta p {
+  font-size: 12px;
+  line-height: 2;
+  line-stacking-strategy: inline-line-height;
+}
+span.numero {
+  background-color: #00f;
+  color: #fff;
+  font-size: 18px;
+}
+body {
+  font-size: 10px; 
+}
+table#detalles {
+  border: solid 1px #000;
+}
+table#detalles tr td {
+  border-bottom: solid 1px #333;
+}
+.center {
+  text-align: center;
+}

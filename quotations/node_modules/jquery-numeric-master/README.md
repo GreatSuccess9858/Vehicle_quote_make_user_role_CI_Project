@@ -1,0 +1,95 @@
+# jQuery.numeric()
+
+Allows only valid numbers to be typed into a text box. Can take negative numbers and a decimal point. You can also supply a callback that runs when focus is lost and the value in the text box is not a valid number.
+
+Original Plugin: http://www.texotela.co.uk/code/jquery/numeric/.
+
+## Installation
+
+* Install with [npm](https://npmjs.org): `npm install jquery.numeric --save`
+* [Download the latest release][download]
+* Clone the repo: `git clone https://github.com/nox-it/jquery-numeric.git`
+
+## Usage
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.numeric.min.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="numbers-only">Numbers only:</label>
+            <input class="numeric" type="text" id="numbers-only" />
+            <br /><br />
+            <label for="integers-only">Integers only:</label>
+            <input class="integer" type="text" id="integers-only" />
+            <br /><br />
+            <label for="positive">No negative values:</label>
+            <input class="positive" type="text" id="positive"/>
+            <br /><br />
+            <label for="no-negative">No negative values (integer only):</label>
+            <input class="positive-integer" type="text" id="no-negative"/>
+            <br /><br />
+            <label for="decimal-2-places">Numbers with up to 2 decimal places:</label>
+            <input class="decimal-2-places" type="text" id="decimal-2-places"/>
+            <br /><br />
+            <label for="alternative-decimal-separator">Alternative (,) changes to standard (.) decimal separator:</label>
+            <input class="alternative-decimal-separator" type="text" id="alternative-decimal-separator"/>
+            <br /><br />
+            <label for="alternative-decimal-separator-reverse">Reverse change from alternative (.) to standard (,) decimal separator:</label>
+            <input class="alternative-decimal-separator-reverse" type="text" id="alternative-decimal-separator-reverse" />
+            <br /><br />
+            <a href="#" id="remove">Remove numeric</a>
+        </form>
+        <script type="text/javascript">
+            $('.numeric').numeric();
+
+            $('.integer').numeric(
+                false,
+                function () {
+                    alert('Integers only');
+                    this.value = '';
+                    this.focus();
+                }
+            );
+
+            $('.positive').numeric(
+                {negative: false},
+                function () {
+                    alert('No negative values');
+                    this.value = '';
+                    this.focus();
+                }
+            );
+
+            $('.positive-integer').numeric(
+                {decimal: false, negative: false},
+                function () {
+                    alert('Positive integers only');
+                    this.value = '';
+                    this.focus();
+                }
+            );
+
+            $('.decimal-2-places').numeric({decimalPlaces: 2});
+
+            $('.alternative-decimal-separator').numeric({altDecimal: ','});
+
+            $('.alternative-decimal-separator-reverse').numeric({altDecimal: '.', decimal: ','});
+
+            $('#remove').on(
+                'click',
+                function (e) {
+                    e.preventDefault();
+
+                    $('.numeric,.integer,.positive,.positive-integer,.decimal-2-places,.alternative-decimal-separator,.alternative-decimal-separator-reverse').removeNumeric();
+                }
+            );
+        </script>
+    </body>
+</html>
+```
+

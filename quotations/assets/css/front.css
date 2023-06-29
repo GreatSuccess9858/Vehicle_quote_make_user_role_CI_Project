@@ -1,0 +1,46 @@
+.header-home {
+    background: #333333;
+    margin: -15px;
+    color: #fff;
+    padding: 99px 0;
+    margin-bottom: 50px;
+}
+
+.header-text {
+    float: left;
+    padding: 35px 25px;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.medium {
+    font-weight: 400;
+}
+
+.header-title {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.header-text>p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.logo-header {
+    height: 200px;
+    float: left;
+}
+
+.box-feature {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 30px;
+    margin-bottom: 15px;
+}
+
+.box-feature>i {
+    color: #ee5e4c;
+}

@@ -1,0 +1,44 @@
+table.dataTable { width: 100% !important; }
+
+/* Data points */
+.project-info { margin-top: 10px; margin-bottom: 10px; font-size: 12px; }
+.project-info-bit { font-weight: 600; margin-bottom: 0px; }
+.project-info-title { color: #949596; margin-bottom: 0px; }
+.project-block { display: inline-block; margin: 10px; }
+
+/* profile*/
+.profile-user-icon { margin-bottom: 10px; }
+.profile-user-role { position: absolute; top: 5px; right: 20px; }
+.profile-online { color: #36c90f; font-weight: 600; }
+.profile-offline { color: #acacac; font-weight: 600; }
+.profile-p { margin-bottom: 2px; }
+.profile-heading { margin: 0px; font-weight: 600; color: #808080; padding-bottom: 2px; border-bottom: 1px solid #808080; margin-bottom: 10px; font-size: 16px;}
+.borderless td, .borderless th {
+    border: none !important;
+}
+.profile-info-content { font-weight: 500; }
+.profile-big-text { font-size: 14px; }
+
+.user_role_button { border: 1px solid #1e8ed0; font-weight: 600; border-radius: 4px; padding: 5px; font-size: 11px; margin: 1px; margin-bottom: 2px; vertical-align: top; display: inline-block; cursor: pointer;}
+.user_role_button:hover { background: #e3efff; }
+.user_role_button.admin { border: 1px solid #1bbc42 !important; color: #1bbc42; }
+.user_role_button.project { border: 1px solid #1e8ed0 !important; color: #1e8ed0; }
+.user_role_button.client { border: 1px solid #e46825 !important; color: #e46825;}
+.user_role_button.banned { border: 1px solid #e46825 !important; color: #eb271c;}
+
+/*user box*/
+.user-box-name { display: inline-block; font-size: 12px; line-height: 6px; vertical-align: middle;}
+.user-box-name p { margin-bottom: 0px; margin-top: 5px; margin-left: 0px; margin-right: 0px; }
+.user-box-username { font-size: 11px; color: #8c8c8c; line-height: 10px; margin-top: 7px; }
+
+
+.user-icon { border-radius: 18px; width: 25px !important; height: 25px !important; }
+
+.user_bit ul li a { color: #000 !important; margin: 0px; height: auto !important; }
+.user_bit ul li a:hover { color: #FFF !important; margin: 0px; height: auto !important; }
+
+.form-error { margin-top: 10px; margin-bottom: 10px; border: 1px solid #fc1b00; padding: 5px; background: #fcf5f0; color: #864143;}
+.form-error-no-margin { border: 1px solid #fc1b00; padding: 5px; background: #fcf5f0; color: #864143;}
+.errorField { border: 1px solid #fc1b00 !important; }
+
+

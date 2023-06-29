@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/application/libraries/dompdf/lib/php-css-parser/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/libraries/dompdf/lib/php-font-lib/tests/FontLib" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/libraries/dompdf/lib/php-svg-lib/tests/Svg" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/libraries/dompdf/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/third_party" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/third_party/stripe/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/third_party/twitter/tests" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

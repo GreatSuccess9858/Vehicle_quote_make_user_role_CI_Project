@@ -1,0 +1,8 @@
+{
+  "name": "jquery.numeric",
+  "version": "1.0.0",
+  "description": "jQuery.numeric() allows only valid numbers to be typed into a text box. Can take negative numbers and a decimal point. You can also supply a callback that runs when focus is lost and the value in the text box is not a valid number.",
+  "main": "jquery.numeric.js",
+  "author": "Sam Collett",
+  "license": "MIT"
+}

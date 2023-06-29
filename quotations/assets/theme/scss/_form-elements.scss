@@ -1,0 +1,83 @@
+/* ==============
+  Form-elements
+===================*/
+
+label {
+  font-weight: 500;
+  font-size: 14px;
+  color: $muted;
+  line-height: 2;
+}
+
+.form-control {
+  font-size: $base-font;
+  &:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: $primary;
+}
+
+.custom-control-input:focus~.custom-control-indicator {
+  -webkit-box-shadow: 0 0 0 1px $white, 0 0 0 3px $primary;
+  box-shadow: 0 0 0 1px $white, 0 0 0 3px $primary;
+}
+
+.has-success {
+  .form-control {
+    border-color: $success;
+    box-shadow: none;
+  }
+}
+
+.has-warning {
+  .form-control {
+    border-color: $warning;
+    box-shadow: none;
+  }
+}
+
+.has-error {
+  .form-control {
+    border-color: $danger;
+    box-shadow: none;
+  }
+}
+
+.input-group-addon {
+  border-radius: 2px;
+  border: 1px solid $light;
+}
+.form-group .form-control select,
+.form-group #exampleSelect1 option,
+.form-group #exampleSelect2 option{
+  color:$muted;
+}
+
+select.form-control:not([size]):not([multiple]),
+.form-group bmd-form-group is-filled is-focused,
+.bmd-form-group.is-focused .form-control,
+.form-control:focus{
+  color:$lightdark3;
+}
+.bmd-form-group .checkbox label, 
+.bmd-form-group .radio label, 
+.bmd-form-group label{
+  font-size: 14px;
+  font-weight: 400;
+  color:$lightgray1;
+  line-height: 24px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color: $primary;
+}
+
+.custom-file-control:invalid, .form-control:invalid {
+   background-image: linear-gradient(0deg,#707070 2px,rgba(213,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+select.custom-file-control:not([size]):not([multiple]), select.form-control:not([size]):not([multiple]) {
+  height: calc(30px + 2px);
+}
